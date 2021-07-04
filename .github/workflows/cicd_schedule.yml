@@ -11,7 +11,7 @@ on:
     branches: [ master ]
 
   schedule:
-    - cron: "45 02,14 * * *"  
+    - cron: '52 02,14 * * *'  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
