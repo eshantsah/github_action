@@ -1,0 +1,14 @@
+name: Schedule
+on:
+  
+  schedule:
+    - cron: '52 01 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Running
+      run: |
+        echo "Running!"
+     
